@@ -30,7 +30,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
         _weather = weather;
       });
     } catch (e) {
-      print('❌ Error fetching weather: $e'); // ✅ This will show the real error
+      print('❌ Error fetching weather: $e'); 
       setState(() {
         _err = 'Could not fetch weather.';
       });
